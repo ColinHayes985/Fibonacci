@@ -1,8 +1,9 @@
-# First class without the book
+# TODO: Find out why graphics import is considered unused when statement removal causes errors
 from graphics import *
 from tkinter import simpledialog
 from tkinter.ttk import Label
 import tkinter as tk
+
 
 def fibonacci():
 
@@ -12,6 +13,7 @@ def fibonacci():
     # Make necessary variables and print
     x = 0
     y = 1
+    # TODO: Find out why fib is considered unused
     fib = 0
     sequence = [x, y]
 
